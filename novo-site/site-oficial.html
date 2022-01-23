@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    @import url('https://fonts.googleapis.com/css2? família=Pacifico&família=Sacramento&display=swap');
+    @import url('https://fonts.googleapis.com/css2? família=Pacifico&família=Sacramento&display=swap');
+    @import url('https://fonts.googleapis.com/css2? família=Pacifico&família=Sacramento&display=swap');
+   @import url('https://fonts.googleapis.com/css2? família=Pacifico&família=Sacramento&display=swap');
+  html,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    scroll-behavior: smooth;
+    
+  }
+  body{
+    max-width: 100%
+    height:100%;
+    background-color: white;
+    background-image: url("imagem/background009.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  header{
+    background-color: #000;
+    max-width: 100%;
+    max-height: 10%;
+  }
+  h1{
+    width: 18rem;
+    color:yellow;
+    text-align: center;
+    padding: .8rem ;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin: auto;
+    font-family: 'Pacifico', cursivo;
+  }
+  p#p1{
+    color: #fff;
+    text-align: center;
+    padding: .2rem 0;
+    font-size: 1.2rem;
+    text-shadow:2px 2px pink;
+
+  }
+  img{
+    max-width: 20rem;
+    max-height: 23rem;
+    margin: .5em;
+     border-radius: .2em;
+      box-shadow: .3em .2em #C0C0C0;
+      
+  }#div1{
+    font-style: italic;
+    font-weight: bolder;
+    background-color: #fff;
+    margin: .5rem;
+    padding: .9rem;
+    border-radius: .2em;
+    text-indent: .2em;
+    text-shadow: 2px;
+     font-family: 'Pacifico', cursivo; 
+     box-shadow: .3em .2em #C0C0C0;
+  }
+
+  }aside{
+   display:flex;
+   justify-content: flex-center;
+   align-items: center;
+
+
+  }#img0{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+  }
+  
+ article{
+  background-color: #D3D3D3;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  margin: 3rem;
+  border-radius: .2em;
+  box-shadow: .2em .2em #000;
+ }
+ p{
+   font-style: italic;
+    font-weight: bolder;
+  text-align: center;
+  padding: 2px;
+  font-size: 1rem;
+  text-indent: 10%;
+  font-family: 'Pacifico', cursivo;
+   text-indent: .2em;
+    text-shadow: 1px;
+
+
+  
+ }h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  margin:.5em 0;
+  font-style: italic;
+  text-shadow:2px 2px #00BFFF;
+  font-family:'Pacifico', cursivo;
+ }
+ section{
+  height: 50%;
+  background-color: #d3d3d3;
+  border-bottom: 1px solid #fff;
+
+ }section>ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border:1px solid #fff;
+  list-style: none;
+
+ }section>ul>li{
+  border:1px solid #fff;
+  margin:2rem;
+   border-radius: .2em;
+  text-align: center;
+  padding: 3rem;
+  background-color: #000;
+  color: #fff;
+ }
+ 
+ span:before{
+  content: "";
+  display: block;
+  height: .01em;
+  width: 10rem;
+  background-color: #fff;
+  text-align: center;
+  margin: auto;
+  
+ }
+ section>ul>li.secIMG{
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  
+
+ }fieldset{
+  width: 20%;
+  background-color: #000;
+  margin:1rem .2rem ;
+  text-align: center;
+  color: #fff;
+  border:none;
+  border-radius: .4em;
+  box-shadow: .3em .3em #fff;
+  padding: 1rem .4rem;
+ }
+ section>ul>fieldset>li>p{
+  text-align: center;
+  font-size: .8em;
+
+
+ }
+ h3{
+  padding:0 0 1rem 0;
+  color:#fff; 
+  text-shadow:2px 2px #00BFFF;
+  font-family:'Pacifico', cursivo;
+ }
+ footer{
+  background-color: #000;
+  padding:1rem 0;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+ font-family: 'Sacramento', cursivo;
+ }legend{
+  margin:.4em;
+  background-color: #fff;
+  border-radius: 100%;
+  background-image: url("https://img.icons8.com/emoji/48/000000/paperclip-emoji.png" );
+  background-position: center center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  width: 4rem;
+  height: 4rem;
+
+ }img.secIMG{
+  width: 4rem;
+  height: 4rem;
+  box-shadow: none;
+
+
+ }img.secIMG::before{
+  content: "";
+  display: block;
+  width: 10rem
+  height:1rem;
+  background-color: #fff;
+  margin: auto;
+  padding: 1rem 0;
+ }
+footer>#p2{
+ padding: .8em;
+}
+a{
+  text-align: right;
+  font-weight: bolder;
+  text-decoration: none;
+   font-family: 'Sacramento', cursivo;
+ }a:hover{
+  color: #ff0010;
+ }a:focus{
+  color:pink;
+ }img.fil{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+
+ }
+ .link{
+  text-decoration: underline;
+  float: right;
+  margin-right: .8rem;
+ }footer>#p2>a{
+  font-weight: bolder;
+  text-decoration: none;
+  margin: 0 .3em;
+}
+.a{
+  border-right: 1px solid #fff;
+  padding: 0 .5em;
+}
+footer>#p2>.a:hover{
+  color: #ff0010;
+}.final{
+
+   
+   text-indent:5%;
+}
+footer>#p2>.a{
+    color: #fff;
+  }
+  aside{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center; 
+   
+
+  }
+  aside>img{
+    box-shadow: none;
+    width: 4rem;height: 4rem;
+    border-radius: 100%;border:4px solid #fff;
+    margin-right:4rem;
+
+  }
+@media (max-width: 760px){
+  h1,h2{
+    font-size: 1rem; 
+  }
+  #div1{
+    font-size: .6rem;
+    font-weight: normal;
+  }article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }h1{
+    font-size: 1.5rem;
+  }
+  img{
+
+    height: 100%;
+   width: 95%;
+
+  }
+  fieldset{
+    width: 5%;
+    height: 100%;
+     margin:.5rem .4em;
+    padding: .2em ;
+    font-size: .4em;
+    box-shadow: .3em .3em #fff;
+   
+
+  }
+  .final{
+    font-size: 1.5em;
+    margin: 1rem 0;
+  }ul{
+    border-top:1px solid #fff;
+  }
+  footer{
+    font-size: .6em;
+  }h3{
+    font-size: 1rem;
+  }
+  img.secIMG{
+    width: 2rem;
+    height: 2rem;
+   
+  }
+  footer>#p2>a{
+    margin: 1rem;
+    font-size: .7em;
+    color:#fff;
+  }
+   footer>#p2>a:hover{
+    color: #ff0010;
+  }
+  header>#p1{
+    font-size: 1rem;
+  }
+  
+  
+
+}
+</style>
+<title>poemas</title>
+</head>
+<body>
+<header>
+<aside><h1>...POEMAS</h1> <img src="https://img.icons8.com/fluency/50/000000/poem.png" class="pri01"></aside>
+<p id="p1">Meu Novo Site feito de poemas para sua diversao.</p>
+</header>
+
+<main>
+
+<article>
+<img src="imagem/maxi.jpg">
+<div id="div1">
+  <p>
+    <h2>Pontinho de Vista</h2>
+Sou feita de madeira
+Madeira, matéria morta
+Não há nada no mundo
+Mais viva que uma porta
+
+Eu abro devagarinho
+Pra passar o menininho
+Eu abro bem com cuidado
+Pra passar o namorado
+
+Eu abro bem prazenteira
+Pra passar a cozinheira
+
+
+
+
+</p>
+<p>Sou feita de madeira
+Madeira, matéria morta
+Não há nada no mundo
+Mais viva que uma porta
+
+Eu abro devagarinho
+Pra passar o menininho
+Eu abro bem com cuidado
+Pra passar o namorado
+
+Eu abro bem prazenteira
+Pra passar a cozinheira
+
+
+
+</p>
+<p>Sou feita de madeira
+Madeira, matéria morta
+Não há nada no mundo
+Mais viva que uma porta
+
+Eu abro devagarinho
+Pra passar o menininho
+Eu abro bem com cuidado
+Pra passar o namorado
+
+Eu abro bem prazenteira
+Pra passar a cozinheira
+
+
+
+ </p>
+<p>Sou feita de madeira
+Madeira, matéria morta
+Não há nada no mundo
+Mais viva que uma porta
+
+Eu abro devagarinho
+Pra passar o menininho
+Eu abro bem com cuidado
+Pra passar o namorado
+
+Eu abro bem prazenteira
+Pra passar a cozinheira
+
+
+
+ </p>
+<a href="#" class="link">Pedro Bandeira</a>
+</div>
+</article>
+
+
+<article>
+<img src="imagem/rick.jpg">
+<div id="div1">
+<p>
+<h2>O Menino Azul </h2>
+O menino quer um burrinho
+para passear.
+Um burrinho manso,
+que não corra nem pule,
+mas que saiba conversar.
+
+O menino quer um burrinho
+que saiba dizer
+o nome dos rios,
+das montanhas, das flores,
+– de tudo o que aparecer.
+
+O menino quer um burrinho
+que saiba inventar histórias bonitas
+com pessoas e bichos
+e com barquinhos no mar.
+
+E os dois sairão pelo mundo
+que é como um jardim
+apenas mais largo
+e talvez mais comprido
+e que não tenha fim.
+
+que não corra nem pule,
+mas que saiba conversar.
+</p>
+<p>O menino quer um burrinho
+para passear.
+Um burrinho manso,
+que não corra nem pule,
+mas que saiba conversar.
+
+O menino quer um burrinho
+que saiba dizer
+o nome dos rios,
+das montanhas, das flores,
+– de tudo o que aparecer.
+
+O menino quer um burrinho
+que saiba inventar histórias bonitas
+com pessoas e bichos
+e com barquinhos no mar.
+
+E os dois sairão pelo mundo
+
+
+
+
+</p>
+<p>Quem souber de um burrinho desses,
+pode escrever
+para a Ruas das Casas,O menino quer um burrinho
+para passear.
+
+</p>
+<a href="#" class="link">Cecília Meireles</a>
+
+</div>
+</article>
+<article>
+<img src="imagem/jeik.jfif">
+<div id="div1">
+<p>
+<h2>Guarda-chuvas </h2>
+Tenho quatro guarda-chuvas
+todos os quatro com defeito;
+Um emperra quando abre,
+outro não fecha direito.
+
+Um deles vira ao contrário
+seu eu abro sem ter cuidado.
+Outro, então, solta as varetas
+e fica todo amassado.
+
+O quarto é bem pequenino,
+pra carregar por aí;
+Porém, toda vez que chove,
+eu descubro que esqueci…
+
+Por isso, não falha nunca:
+se começa a trovejar,
+nenhum dos quatro me vale –
+eu sei que vou me molhar.
+
+Quem me dera um guarda-chuva
+pequeno como uma luva
+Que abrisse sem emperrar
+ao ver a chuva chegar!
+
+Tenho quatro guarda-chuvas
+que não me servem de nada;
+Quando chove de repente,
+acabo toda encharcada.
+E que fria cai a água
+sobre a pele ressecada!
+Ai….
+</p>
+<p>
+  Tenho quatro guarda-chuvas
+todos os quatro com defeito;
+Um emperra quando abre,
+outro não fecha direito.
+
+Um deles vira ao contrário
+seu eu abro sem ter cuidado.
+Outro, então, solta as varetas
+e fica todo amassado.
+
+O quarto é bem pequenino,
+pra carregar por aí;
+Porém, toda vez que chove,
+eu descubro que esqueci…
+
+Por isso, não falha nunca:
+se começa a trovejar,
+
+
+
+
+</p>
+<a href="#" class="link">Rosana Rios</a>
+</div>
+</article>
+</main>
+<section>
+  <ul>
+       <fieldset>
+      <legend></legend>
+</legend>
+    <li>
+      <h3>Quando as crianças </h3>
+       <img src="https://img.icons8.com/fluency/50/000000/poem.png" class="secIMG"/>
+       <span></span>
+      <p class="final">“Quando as crianças brincam
+          E eu as oiço brincar,
+          Qualquer coisa em minha alma
+          Começa a se alegrar.
+
+          E toda aquela infância
+          Que não tive me vem,
+        </p>
+    </li>
+     </fieldset>
+    <fieldset>
+      <legend></legend>
+    <li>
+      <h3>Pontinho de Vista</h3>
+      <img src="https://img.icons8.com/fluency/50/000000/poem.png" class="secIMG" />
+      <span></span>
+      <p class="final">“Quando as crianças brincam
+          E eu as oiço brincar,
+          Qualquer coisa em minha alma
+          Começa a se alegrar.
+
+          E toda aquela infância
+          Que não tive me vem,
+          </p>
+    </li>
+  </fieldset>
+    <fieldset>
+      <legend></legend>
+    <li>
+      <h3>A bailarina do dia</h3>
+      <img src="https://img.icons8.com/fluency/50/000000/poem.png" class="secIMG"/>
+      <span></span>
+      <p class="final">“Quando as crianças brincam
+          E eu as oiço brincar,
+          Qualquer coisa em minha alma
+          Começa a se alegrar.
+
+          E toda aquela infância
+          Que não tive me vem.
+
+          </p>
+    </li>
+  </fieldset>
+  </ul>
+</section>
+
+<footer>SITE DE TRABALHO DO CRIADOR ESTA NO <a href="#"> GITHUB</a> <p id="p2"><a href="#" class="a">FACEBOOK</a>   <a href="#" class="a">WHATSAPP</a>  <a href="#" class="a">INSTAGRAM</a>  <a href="#" class="a">LINKDIN</a><a href="#" class="a">TWITTER</a>  <a href="#" class="a">TWITCH</a> 
+</p><strong >CRIADO POR &copy;DANILO - 2020</strong>
+
+</footer>
+
+
+
+</main>
+</body>
+</html>
